@@ -88,7 +88,7 @@ pp = hslider("polar", 0.5, 0, 1, 0.01);
 az = 0-hslider("azimut", 0, -180, 180, 0.1) : sma.d2r;
 el = hslider("elevation", 0, -180, 180, 0.1) : sma.d2r;
 
-// BFORMAT
+// AMBIX
 // first order 
 a0 = 1; // 1/sqrt(2);
 a1(a,e) = sin(a)*cos(e);
